@@ -36,7 +36,7 @@ Clinical Integration API
 ## Estrutura do projeto
 
 ```
-clinical-microservice/
+clinical-integration/
 
 ├── clinical-microservice/
 │   ├── app/
