@@ -101,11 +101,11 @@ Mais detalhes:
 - Python 3.12
 - FastAPI
 - RabbitMQ
+- SQL
 - PostgreSQL
 - Docker
 - Pydantic
 - Pytest
-- SQL
 
 ---
 
