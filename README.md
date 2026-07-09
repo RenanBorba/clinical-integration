@@ -17,7 +17,7 @@ Projeto desenvolvido para simular uma arquitetura de integração entre um Pront
 
 O fluxo contempla a disponibilização de dados clínicos por meio de views SQL, o recebimento de eventos via API REST e sua publicação em uma fila RabbitMQ para processamento assíncrono.
 
-O projeto foi inspirado em cenários de integração encontrados em soluções de Saúde Digital, como Philips Tasy e MV Soul.
+O projeto foi inspirado em cenários de integração encontrados em soluções de Saúde Digital, como Bionexo Tasy e MV Soul.
 
 ---
 
