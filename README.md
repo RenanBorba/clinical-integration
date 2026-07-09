@@ -1,4 +1,5 @@
-# Clinical Integration Platform
+<div align="center">
+<h1> Clinical Integration Platform </h1>
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
@@ -7,6 +8,8 @@
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
 
 <img width="550" height="320" alt="Image" src="https://github.com/user-attachments/assets/90d56e2c-3cf7-4429-900d-4bd2d7fd6e63" />
+
+</div>
 
 <br><br>
 
