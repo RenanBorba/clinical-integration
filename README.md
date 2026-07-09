@@ -11,7 +11,7 @@
 
 </div>
 
-<br><br>
+<br>
 
 Projeto desenvolvido para simular uma arquitetura de integração entre um Prontuário Eletrônico do Paciente (PEP) e aplicações externas, utilizando tecnologias amplamente empregadas em ambientes hospitalares, como FastAPI, RabbitMQ, PostgreSQL e Docker.
 
