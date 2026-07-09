@@ -8,6 +8,8 @@
 
 <img width="550" height="320" alt="Image" src="https://github.com/user-attachments/assets/90d56e2c-3cf7-4429-900d-4bd2d7fd6e63" />
 
+<br><br>
+
 Projeto desenvolvido para simular uma arquitetura de integração entre um Prontuário Eletrônico do Paciente (PEP) e aplicações externas, utilizando tecnologias amplamente empregadas em ambientes hospitalares, como FastAPI, RabbitMQ, PostgreSQL e Docker.
 
 O fluxo contempla a disponibilização de dados clínicos por meio de views SQL, o recebimento de eventos via API REST e sua publicação em uma fila RabbitMQ para processamento assíncrono.
