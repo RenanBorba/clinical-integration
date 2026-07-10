@@ -2,8 +2,8 @@
 <h1> Clinical Integration Platform </h1>
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.13-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
 
