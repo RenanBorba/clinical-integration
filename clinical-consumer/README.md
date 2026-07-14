@@ -1,4 +1,4 @@
-# Clinical Integration Microservice - HL7 FHIR R4
+# Clinical Consumer - HL7 FHIR R4
 
 Microserviço desenvolvido para simular uma arquitetura de integração clínica entre sistemas hospitalares (PEP) e uma plataforma interoperável baseada em HL7 FHIR R4.
 
