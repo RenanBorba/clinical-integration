@@ -1,8 +1,51 @@
 # Clinical Consumer - HL7 FHIR R4
 
-Microserviço desenvolvido para simular uma arquitetura de integração clínica entre sistemas hospitalares (PEP) e uma plataforma interoperável baseada em HL7 FHIR R4.
+O objetivo foi simular um cenário real de interoperabilidade entre um sistema de Prontuário Eletrônico do Paciente (PEP) e uma plataforma FHIR, permitindo que eventos clínicos fossem processados de forma assíncrona e convertidos em recursos padronizados para compartilhamento de informações em saúde.
 
-O projeto tem como objetivo receber eventos clínicos através de uma API REST, processar as mensagens de forma assíncrona utilizando RabbitMQ e transformar os dados recebidos em recursos padronizados HL7 FHIR para armazenamento e consulta em um servidor HAPI FHIR.
+A solução foi desenvolvida em Python com FastAPI e utiliza um Consumer RabbitMQ responsável por consumir os eventos publicados na fila, buscar os dados necessários no banco de dados, realizar o mapeamento para recursos HL7 FHIR R4 e enviá-los para um servidor HAPI FHIR, garantindo a padronização e interoperabilidade das informações clínicas.
+
+Durante o desenvolvimento foram implementados recursos FHIR como Patient, Practitioner, Observation e MedicationRequest, além de uma estratégia de sincronização idempotente utilizando requisições HTTP PUT para evitar registros duplicados.
+
+Esse projeto permitiu aprofundar conhecimentos em:
+
+## 🔹 Tecnologias utilizadas:
+Python + FastAPI         
+
+RabbitMQ para mensageria assíncrona     
+
+Docker / Docker Compose    
+
+HAPI FHIR Server (FHIR R4)             
+
+PostgreSQL     
+
+REST APIs                  
+
+JSON / FHIR Resources
+
+## 🔹 Recursos FHIR implementados:
+✅ Patient Representação do cadastro do paciente com identificadores como CPF e CNS/SUS.
+
+✅ Observation Registro de informações clínicas e observações.
+
+✅ MedicationRequest Representação de prescrições e solicitações de medicamentos.
+
+## 🔹 Fluxo desenvolvido:
+Sistema clínico → API REST → RabbitMQ → Consumer → Mapper FHIR → HAPI FHIR Server
+
+O projeto também contempla conceitos importantes de interoperabilidade:
+
+✔ Comunicação assíncrona baseada em eventos    
+
+✔ Idempotência utilizando PUT no FHIR         
+
+✔ Referenciamento entre recursos FHIR (Patient, Practitioner, Observation etc.)   
+
+✔ Containerização para facilitar implantação     
+
+✔ Separação entre produtor e consumidor de eventos
+
+Esse projeto reforçou na prática como padrões como HL7 FHIR podem ser aplicados para conectar diferentes sistemas de saúde, permitindo maior integração, rastreabilidade e troca segura de informações clínicas.
 
 ---
 
