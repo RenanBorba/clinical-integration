@@ -303,15 +303,15 @@ docker compose up --build
 
 # Conceitos Aplicados
 
-✔ Arquitetura orientada a eventos
-✔ Comunicação assíncrona com RabbitMQ
-✔ APIs REST
-✔ HL7 FHIR R4
-✔ Interoperabilidade em saúde
-✔ Mapeamento de dados clínicos
-✔ Dockerização
-✔ Integração entre sistemas hospitalares
-✔ Sincronização idempotente via PUT
+✔ Arquitetura orientada a eventos <br>
+✔ Comunicação assíncrona com RabbitMQ <br>
+✔ APIs REST <br>
+✔ HL7 FHIR R4 <br>
+✔ Interoperabilidade em saúde <br>
+✔ Mapeamento de dados clínicos <br>
+✔ Dockerização <br>
+✔ Integração entre sistemas hospitalares <br>
+✔ Sincronização idempotente via PUT <br>
 
 ---
 
@@ -326,9 +326,3 @@ docker compose up --build
 * Integração com cenários LIS/PEP.
 
 ---
-
-# Autor
-
-**Renan Borba**
-
-Analista de Sistemas | Saúde Digital | Interoperabilidade | HL7 FHIR | APIs REST
