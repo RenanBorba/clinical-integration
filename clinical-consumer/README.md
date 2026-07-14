@@ -301,6 +301,20 @@ docker compose up --build
 
 ---
 
+# Em execução
+
+<img width="1491" height="999" alt="Image" src="https://github.com/user-attachments/assets/e32b21d9-2d4c-4f77-a094-3ee321e6b94f" />
+
+<img width="1487" height="996" alt="Image" src="https://github.com/user-attachments/assets/20d917e8-e395-4fb0-9cfd-6c05438f7abe" />
+
+<img width="1497" height="992" alt="Image" src="https://github.com/user-attachments/assets/ddb9cccb-dcef-49d6-ad4e-d50acb6abcf9" />
+
+<img width="1920" height="1041" alt="Image" src="https://github.com/user-attachments/assets/be6b7a0c-989f-4766-8b21-8464dd189941" />
+
+<img width="1920" height="1039" alt="Image" src="https://github.com/user-attachments/assets/bed8f006-16d1-47a9-bdb4-8b758d12a0a2" />
+
+---
+
 # Conceitos Aplicados
 
 ✔ Arquitetura orientada a eventos <br>
