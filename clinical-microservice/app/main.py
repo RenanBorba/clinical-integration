@@ -3,7 +3,7 @@ from app.routes import router
 
 # Declara a API
 app = FastAPI(
-    title="Clinical Integration Microservice",
+    title="Clinical Integration Microservice - LevelAI",
     description="Microserviço responsável por receber dados clínicos e publicar na fila RabbitMQ.",
     version="1.0.0"
 )

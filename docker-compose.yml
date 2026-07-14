@@ -15,6 +15,8 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+    restart: unless-stopped
+
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq
@@ -23,16 +25,29 @@ services:
       - "5672:5672"
       - "15672:15672"
 
+    restart: unless-stopped
+
+  hapi-fhir:
+    image: hapiproject/hapi:latest
+    container_name: hapi-fhir
+
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - hapi_data:/data/hapi
+
+    restart: unless-stopped
+
   api:
     build:
       context: ./clinical-microservice
-      dockerfile: Dockerfile
 
     container_name: clinical-api
 
     depends_on:
-      - rabbitmq
       - postgres
+      - rabbitmq
 
     env_file:
       - .env
@@ -40,5 +55,23 @@ services:
     ports:
       - "8000:8000"
 
+    restart: unless-stopped
+
+  consumer:
+    build:
+      context: ./clinical-consumer
+
+    container_name: clinical-consumer
+
+    depends_on:
+      - rabbitmq
+      - hapi-fhir
+
+    env_file:
+      - .env
+
+    restart: unless-stopped
+
 volumes:
   postgres_data:
+  hapi_data:

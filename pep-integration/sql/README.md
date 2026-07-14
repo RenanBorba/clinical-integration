@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Este módulo representa a camada de dados do Prontuário Eletrônico do Paciente (PEP), disponibilizando informações clínicas por meio de **views SQL** (PostgreSQL) para consumo por aplicações externas.
+Este módulo representa a camada de integração do Prontuário Eletrônico do Paciente (PEP), disponibilizando informações clínicas por meio de **views SQL** para consumo por aplicações externas.
 
 A utilização de views permite abstrair a estrutura física do banco de dados, promovendo desacoplamento, padronização dos dados e maior segurança nas integrações.
 

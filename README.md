@@ -1,28 +1,20 @@
-<div align="center">
-<h1> Clinical Integration Platform </h1>
+# Clinical Integration Platform – LevelAI Case
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.13-orange)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.13-orange)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
-
-<img width="550" height="320" alt="Image" src="https://github.com/user-attachments/assets/90d56e2c-3cf7-4429-900d-4bd2d7fd6e63" />
-
-</div>
-
-<br>
 
 Projeto desenvolvido para simular uma arquitetura de integração entre um Prontuário Eletrônico do Paciente (PEP) e aplicações externas, utilizando tecnologias amplamente empregadas em ambientes hospitalares, como FastAPI, RabbitMQ, PostgreSQL e Docker.
 
 O fluxo contempla a disponibilização de dados clínicos por meio de views SQL, o recebimento de eventos via API REST e sua publicação em uma fila RabbitMQ para processamento assíncrono.
 
-O projeto foi inspirado em cenários de integração encontrados em soluções de Saúde Digital, como Bionexo Tasy e MV Soul.
+O projeto foi inspirado em cenários de integração encontrados em soluções de Saúde Digital, como Philips Tasy e MV Soul.
 
 ---
 
 ## Arquitetura
-```text
 Sistema Hospitalar
         │
         ▼
@@ -37,13 +29,13 @@ Clinical Integration API
         │
         ▼
      RabbitMQ
-```
+
 ---
 
 ## Estrutura do projeto
 
 ```
-clinical-integration/
+case-levelai/
 
 ├── clinical-microservice/
 │   ├── app/
@@ -108,11 +100,11 @@ Mais detalhes:
 - Python 3.12
 - FastAPI
 - RabbitMQ
-- SQL
 - PostgreSQL
 - Docker
 - Pydantic
 - Pytest
+- SQL
 
 ---
 
@@ -153,7 +145,7 @@ Usuário: guest
 
 Senha: guest
 
-<br>
+---
 
 #### Serviços
 
