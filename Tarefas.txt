@@ -1,5 +1,3 @@
-Tarefas:
-
 1. Integração com Serviço de PEP - Prontuário Eletrônico do Paciente (API RESTful)
 Objetivo: Extrair dados de informações clínicas (evoluções médicas, anamneses, receituários) - Sugestões de campos no final do email.
 
