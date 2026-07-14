@@ -45,6 +45,8 @@ O projeto também contempla conceitos importantes de interoperabilidade:
 
 ✔ Separação entre produtor e consumidor de eventos
 
+<br>
+
 Esse projeto reforçou na prática como padrões como HL7 FHIR podem ser aplicados para conectar diferentes sistemas de saúde, permitindo maior integração, rastreabilidade e troca segura de informações clínicas.
 
 ---
