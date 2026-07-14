@@ -205,7 +205,6 @@ Este projeto demonstra conhecimentos em:
 
 ## Próximas evoluções
 
-- Implementação de Consumer RabbitMQ
 - Persistência de eventos processados
 - Dead Letter Queue (DLQ)
 - Logs estruturados
