@@ -1,4 +1,4 @@
-# Clinical Integration Platform – LevelAI Case
+# Clinical Integration Platform
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
@@ -213,3 +213,9 @@ Este projeto demonstra conhecimentos em:
 - Observabilidade
 
 ---
+
+### Autor
+
+**Renan Borba**
+
+Analista de Sistemas | Saúde Digital | Interoperabilidade | APIs REST
