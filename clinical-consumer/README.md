@@ -348,7 +348,7 @@ docker compose up --build
 
 ---
 
-# Em execução
+# Em Execução
 
 <img width="1491" height="999" alt="Image" src="https://github.com/user-attachments/assets/e32b21d9-2d4c-4f77-a094-3ee321e6b94f" />
 
