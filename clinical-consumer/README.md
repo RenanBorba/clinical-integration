@@ -344,7 +344,7 @@ Serviços executados:
 
 ---
 
-# Para Executar:
+# Para Executar
 
 ```bash
 docker compose up --build
