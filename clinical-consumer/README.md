@@ -19,16 +19,16 @@ HAPI FHIR Server (FHIR R4)
 
 PostgreSQL     
 
-REST APIs                  
+REST API                  
 
 JSON / FHIR Resources
 
 ## 🔹 Recursos FHIR implementados:
-✅ Patient Representação do cadastro do paciente com identificadores como CPF e CNS/SUS.
+✅ Patient → Representação do cadastro do paciente com identificadores como CPF e CNS/SUS.
 
-✅ Observation Registro de informações clínicas e observações.
+✅ Observation → Registro de informações clínicas e observações.
 
-✅ MedicationRequest Representação de prescrições e solicitações de medicamentos.
+✅ MedicationRequest → Representação de prescrições e solicitações de medicamentos.
 
 ## 🔹 Fluxo desenvolvido:
 Sistema clínico → API REST → RabbitMQ → Consumer → Mapper FHIR → HAPI FHIR Server
