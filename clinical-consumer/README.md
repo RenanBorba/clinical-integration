@@ -1,5 +1,9 @@
 # Clinical Consumer - HL7 FHIR R4
 
+<img width="702" height="395" alt="Image" src="https://github.com/user-attachments/assets/eac7cdce-1e0c-4335-98d9-30a19a4a5a92" />
+
+---
+
 O objetivo foi simular um cenário real de interoperabilidade entre um sistema de Prontuário Eletrônico do Paciente (PEP) e uma plataforma FHIR, permitindo que eventos clínicos fossem processados de forma assíncrona e convertidos em recursos padronizados para compartilhamento de informações em saúde.
 
 A solução foi desenvolvida em Python com FastAPI e utiliza um Consumer RabbitMQ responsável por consumir os eventos publicados na fila, buscar os dados necessários no banco de dados, realizar o mapeamento para recursos HL7 FHIR R4 e enviá-los para um servidor HAPI FHIR, garantindo a padronização e interoperabilidade das informações clínicas.
