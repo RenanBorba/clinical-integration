@@ -95,6 +95,24 @@ Mais detalhes:
 
 ---
 
+### Clinical Consumer
+
+Serviço responsável pela camada de interoperabilidade baseada em eventos.
+
+Inclui:
+
+- Consumo assíncrono de mensagens RabbitMQ
+- Consulta ao Prontuário Eletrônico (PostgreSQL)
+- Conversão de dados clínicos para recursos HL7 FHIR R4
+- Publicação de Patients, Observations, Conditions e MedicationRequests no HAPI FHIR
+- Garantia de desacoplamento entre sistemas clínicos e plataformas FHIR
+
+Mais detalhes:
+
+📁 **clinical-consumer/README.md**
+
+---
+
 ## Tecnologias
 
 - Python 3.12
