@@ -1,10 +1,18 @@
+<div align="center">
+        
 # Clinical Integration Platform
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.13-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
+
+<img width="700" height="408" alt="Image" src="https://github.com/user-attachments/assets/f8c4d14b-9560-452d-83ca-5829da06382a" />
+
+</div>
+
+<br>
 
 Projeto desenvolvido para simular uma arquitetura de integração entre um Prontuário Eletrônico do Paciente (PEP) e aplicações externas, utilizando tecnologias amplamente empregadas em ambientes hospitalares, como FastAPI, RabbitMQ, PostgreSQL e Docker.
 
