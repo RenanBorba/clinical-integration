@@ -9,19 +9,19 @@ Durante o desenvolvimento foram implementados recursos FHIR como Patient, Practi
 Esse projeto permitiu aprofundar conhecimentos em:
 
 ## 🔹 Tecnologias utilizadas:
-Python + FastAPI         
+✤ Python + FastAPI         
 
-RabbitMQ para mensageria assíncrona     
+✤ RabbitMQ para mensageria assíncrona     
 
-Docker / Docker Compose    
+✤ Docker / Docker Compose    
 
-HAPI FHIR Server (FHIR R4)             
+✤ HAPI FHIR Server (FHIR R4)             
 
-PostgreSQL     
+✤ PostgreSQL     
 
-REST API                  
+✤ REST API                  
 
-JSON / FHIR Resources
+✤ JSON / FHIR Resources
 
 ## 🔹 Recursos FHIR implementados:
 ✅ Patient → Representação do cadastro do paciente com identificadores como CPF e CNS/SUS.
