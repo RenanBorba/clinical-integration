@@ -364,7 +364,7 @@ docker compose up --build
 
 ✔ Arquitetura orientada a eventos <br>
 ✔ Comunicação assíncrona com RabbitMQ <br>
-✔ APIs REST <br>
+✔ API REST <br>
 ✔ HL7 FHIR R4 <br>
 ✔ Interoperabilidade em saúde <br>
 ✔ Mapeamento de dados clínicos <br>
