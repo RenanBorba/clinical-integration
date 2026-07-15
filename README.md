@@ -8,7 +8,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
 
-<img width="700" height="408" alt="Image" src="https://github.com/user-attachments/assets/f8c4d14b-9560-452d-83ca-5829da06382a" />
+<img width="602" height="350" alt="RabbitMQ+FastAPI" src="https://github.com/user-attachments/assets/f8c4d14b-9560-452d-83ca-5829da06382a" />
 
 </div>
 
