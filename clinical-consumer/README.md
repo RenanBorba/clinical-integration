@@ -338,7 +338,9 @@ Serviços executados:
 | HAPI FHIR           | 8080  |
 | PostgreSQL          | 5432  |
 
-Executar:
+---
+
+# Para Executar:
 
 ```bash
 docker compose up --build
