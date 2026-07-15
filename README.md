@@ -15,21 +15,25 @@ O projeto foi inspirado em cenários de integração encontrados em soluções d
 ---
 
 ## Arquitetura
-Sistema Hospitalar <br>
-        │ <br>
-        ▼ <br>
- PostgreSQL (PEP) <br>
-        │ <br>
-        ▼ <br>
-   Views SQL <br>
-        │ <br>
-        ▼ <br>
-Clinical Integration API <br>
-      (FastAPI) <br>
-        │ <br>
-        ▼ <br>
+```text
+Sistema Hospitalar
+        │
+        ▼
+ PostgreSQL (PEP)
+        │
+        ▼
+   Views SQL
+        │
+        ▼
+Clinical Integration API
+      (FastAPI)
+        │
+        ▼
      RabbitMQ
-
+        │
+        ▼
+     Consumer
+```
 ---
 
 ## Estrutura do projeto
