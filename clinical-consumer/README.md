@@ -27,12 +27,16 @@ Esse projeto permitiu aprofundar conhecimentos em:
 
 ✤ JSON / FHIR Resources
 
+<br>
+
 ## 🔹 Recursos FHIR implementados:
 ✅ Patient → Representação do cadastro do paciente com identificadores como CPF e CNS/SUS.
 
 ✅ Observation → Registro de informações clínicas e observações.
 
 ✅ MedicationRequest → Representação de prescrições e solicitações de medicamentos.
+
+<br>
 
 ## 🔹 Fluxo desenvolvido:
 Sistema clínico → API REST → RabbitMQ → Consumer → Mapper FHIR → HAPI FHIR Server
