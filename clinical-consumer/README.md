@@ -354,15 +354,32 @@ docker compose up --build
 
 # Em Execução
 
+<div align="center">
+        
 <img width="1491" height="999" alt="Image" src="https://github.com/user-attachments/assets/e32b21d9-2d4c-4f77-a094-3ee321e6b94f" />
+POST Payload 1 "medical_evolution"
+
+<br><br>
 
 <img width="1487" height="996" alt="Image" src="https://github.com/user-attachments/assets/20d917e8-e395-4fb0-9cfd-6c05438f7abe" />
+POST Payload 2 "anamnesis"
+
+<br><br>
 
 <img width="1497" height="992" alt="Image" src="https://github.com/user-attachments/assets/ddb9cccb-dcef-49d6-ad4e-d50acb6abcf9" />
+POST Payload 3 "prescriptions"
+
+<br><br>
 
 <img width="1920" height="1041" alt="Image" src="https://github.com/user-attachments/assets/be6b7a0c-989f-4766-8b21-8464dd189941" />
+Retorno de Patient e Observations no HAPI FHIR
+
+<br><br>
 
 <img width="1920" height="1039" alt="Image" src="https://github.com/user-attachments/assets/bed8f006-16d1-47a9-bdb4-8b758d12a0a2" />
+Retorno de Condition e MedicationsRequest no HAPI FHIR
+
+</div>
 
 ---
 
